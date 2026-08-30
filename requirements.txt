@@ -1,0 +1,15 @@
+python-dotenv
+langchain
+langchain-openai
+langchain-anthropic
+langchain-google-genai
+langchain-groq
+langchain-openrouter
+langchain-nvidia-ai-endpoints
+langchain-tavily
+langgraph
+deepagents
+langsmith
+openai
+gradio
+jupyterlab
