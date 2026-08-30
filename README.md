@@ -19,5 +19,5 @@
 
 2. Project [Setup](tutorials/setup.md)
 3. Create and add[API Keys](tutorials/api_env.md) to the project
-4. 
+4. [Prompt Engineering](tutorials/prompt_engineering.md)
 
