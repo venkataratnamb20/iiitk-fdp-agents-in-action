@@ -1,5 +1,7 @@
 # Setup
 
+## Instructions
+
 1. Install python package manager- `uv`
     - `Linux`: Open terminal
 
@@ -21,12 +23,38 @@
 
 2. installing or updating python to the latest version.
 
+    - Syntax
+    
+        ```bash
+        uv python install <version>
+        ```
 
-    ```bash
-    uv python install 
-    ```
+    - Example: Install latest [30/08/2026]
+    
+        ```bash
+        uv python install 3.14.7
+        ```
 
-3. Create virtual environment with latest python.
+    - To upgrade `python` version.
+    
+        ```bash
+        uv python upgrade
+        ```
+
+    - To List all python versions- available and installed.
+    
+        ```bash
+        uv python list
+        ```
+
+    - To List all installed `python` versions.
+    
+        ```bash
+        uv python list --only-installed
+        ```
+    
+
+3. Create virtual environment with latest python. If python is not available, it will be installed.
     - Syntax
 
         ```bash
@@ -72,3 +100,12 @@
         uv add -r requirements.txt
         ```
 
+    - with `pip`
+        ```bash
+        uv pip install -r requirements.txt
+        ```
+
+## References
+
+1. [astral/docs](https://docs.astral.sh/uv/concepts/python-versions/#registration-in-the-windows-registry)
+2. [realpython/python-uv](https://realpython.com/python-uv/)
