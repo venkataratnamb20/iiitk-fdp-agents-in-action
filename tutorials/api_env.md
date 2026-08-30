@@ -14,3 +14,26 @@
     ```
 
 5. Never disclose .env file. Make sure `.env` is in ignore files like `.gitignore` or `.dockerignore` etc.
+
+## Create API Keys
+
+1. [anthropic](https://platform.claude.com/login): 
+Models
+2. [deepseek](https://platform.deepseek.com/sign_in): 
+Models
+3. [google](https://accounts.google.com/v3/signin/identifier?continue=https://aistudio.google.com/app/apikey?original_referer%3Dhttps://www.google.com&followup=https://aistudio.google.com/app/apikey?original_referer%3Dhttps://www.google.com&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1438952158:1788052697032371): 
+Models and cloud
+4. [groq](https://console.groq.com/keys): 
+Models [FREE]
+5. [langsmith](https://smith.langchain.com/): 
+framework
+6. [nvidia](https://build.nvidia.com/settings/api-keys): 
+Models [FREE]
+7. [openai](https://platform.openai.com/login?next=%2Fapi-keys): 
+Models
+8. [openrouter](https://openrouter.ai/): 
+Models [FREE]
+9. [pinecone](https://www.pinecone.io/): 
+Vector database [FREE]
+10. [tavily](https://www.tavily.com/): 
+Web Search [FREE]
