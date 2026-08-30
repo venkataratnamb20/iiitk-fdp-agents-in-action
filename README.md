@@ -11,5 +11,13 @@
 
 ## Tutorials
 
-1. Project [Setup](tutorials/setup.md)
-2. [API Keys](tutorials/api_env.md)
+1. Clone the [repo](https://github.com/venkataratnamb20/iiitk-fdp-agents-in-action)
+
+    ```bash
+    git clone https://github.com/venkataratnamb20/iiitk-fdp-agents-in-action
+    ```
+
+2. Project [Setup](tutorials/setup.md)
+3. Create and add[API Keys](tutorials/api_env.md) to the project
+4. 
+
